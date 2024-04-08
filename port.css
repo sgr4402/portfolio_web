@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #3cc812;
+    color: #e00d0d;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #100808e9;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+    background-color: #c20bda;
+    border: 1px solid #0c0606;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+.project {
+    background-color: #7d85b7;
+    border: 1px solid #1ad4db;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #dd0b5f;
+    color: #53e50a;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #555;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ed0a0a;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #227b89;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #deed10;
+}
